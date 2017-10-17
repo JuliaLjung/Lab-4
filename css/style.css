@@ -1,0 +1,194 @@
+/*----------- header-----------*/
+
+body {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+p {
+	font-family: helvetica;
+	font-weight: 100;
+	margin-right: 40px;
+}
+
+div.link_upload h3 {
+	color: grey;
+	font-family: montserrat;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	margin-top:0px;
+}
+
+h2 {
+	font-family: montserrat;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#pagecontainer{
+	overflow: hidden;
+	padding: 0px 7px;
+}
+
+
+header {
+	height: 120px;
+	background: red url("../images/bookshelf.jpg") no-repeat center center;
+	background-size: cover;
+	margin-bottom: 44px;
+	padding-bottom: 20px;
+	position:relative;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 20px;
+	margin-bottom: 8px;
+    letter-spacing: 5px;
+    font-family: montserrat;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+#pagecontainer > header > ul > li {
+
+	float: right;
+    list-style: none;
+    margin-right: 25px;
+    padding-top: 8px;
+}
+
+
+#pagecontainer > header > ul > li > a{
+	color: #eee;
+	font-weight: 200;
+	text-decoration: none;
+	font-family: montserrat;
+
+}
+
+.main_menu {
+	padding: 1px 0px;
+}
+
+.main_menu ul{
+	list-style: none;
+	text-align: center;
+}
+
+.main_menu ul li {
+	display: inline-block;
+	padding-right:20px;
+}
+
+.main_menu ul a {
+	text-decoration: none;
+	font-family: Helvetica;
+	color: #fff;
+	color: #fff;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 15px;
+
+}
+
+.main_menu ul a.active {
+	color: grey;
+}
+
+
+
+/*--------- end header---------*/
+
+/*--------- main ---------*/
+
+div#links {
+	overflow:hidden;
+}
+
+img{
+	width:100%;
+}
+
+main {
+	margin-bottom: 210px;
+    padding: 0px 50px;
+}
+
+
+
+#main_picture img{
+	float:left;
+	width: 50%;
+	margin-right: 20px;
+	height: ;
+}
+
+input[type=text]{
+
+	padding: 10px 22px;
+	border: solid 1px #ddd;
+	border-radius: 15px;
+}
+
+input[type="submit"]{
+	padding: 10px 40px;
+	background-color: #eee;
+	border: none;
+	border-radius: 15px;
+}
+
+input[type="password"]{
+	padding: 10px 22px;
+	border: solid 1px #ddd;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+/*--------- end main ---------*/
+
+/*--------- footer ---------*/
+
+#footer_box {
+	background-color: #2e353b;
+	height: 150px;
+}
+
+div.inner h3{
+	color: grey;
+	font-family: montserrat;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+div.inner p {
+	color:grey;
+	margin-top: 2px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+ul.box {
+	overflow:hidden;
+}
+
+ul.box li{
+	float: left;
+	width: 50%;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+
+
+/*--------- end footer ---------*/
+
